@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website - easy tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/afea6373d6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo3.png.jpeg" class="logo">
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>   
+                </ul>
+            </nav>
+            <div class ="header-text">
+                <p><span>Indian</span> ,web developer</p>
+                <h1>Hi,I'm<span> Jainam Modi</span><br> From <span>India</span></h1>
+            </div>
+        </div>
+    </div>
+    <!-- -------about-------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png.jpg">
+                </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About me</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt suscipit, recusandae quo facilis fugiat ipsam error cum deserunt eos dolorum expedita accusantium consequuntur in fugit molestiae vel, rerum debitis eius laborum? Magnam quo totam modi.</p>
+                        <div class="tab-titles">
+                           <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                           <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                           <p class="tab-links" onclick="opentab('Education')">Education</p>
+                           
+                        </div>
+                        <div class="tab-contents active tab" id="Education">
+                            <ul>
+                                <li><span>Satyam school</span><br>HSC-2021,70%</li>
+                                <li><span>Satyam school</span><br>SSC-2019,75% </li>
+                                <li><span>Silver Oak University</span><br>2021-Current</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents active tab" id="Experience">
+                            <ul>
+                                <li><span>2023-current</span><br>UI/UX training at et institute</li>
+                                <li><span>Web development</span><br> Team lead startup at et </li>
+                                <li><span>App development</span><br>UI/UX Designing execute at et </li>
+                            </ul>
+                        </div> <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing Web app interface</li>
+                                <li><span>Web development</span><br>Web app development</li>
+                                <li><span>App development</span><br>Building android/ios app</li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <!-----------services---------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>         
+                    <h2>Web development</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>                   
+                    <h2>APP development </h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                    <a href="#">learn more</a>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-------------"portfolio">------------>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.jpg.jpg">
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.jpg.jpg">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.jpg.jpg">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis reprehenderit optio quos ab rem iure magnam nam earum voluptate atque eos, deserunt corrupti numquam officiis maiores voluptatem beatae repudiandae cumque! Dolore alias reiciendis nisi ex.</p>
+                        <a href='#'><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href='#'class="btn">See more</a>
+        </div>
+    </div>
+    <!-----------contact------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane fa-bounce"></i>modijainam2004@gmail.com</p>
+                    <p><i class="fa-solid fa-phone fa-shake"></i>7383817202</p>
+                <br>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/jainamrock9?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/modi-jainam-777335283"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                    <a href="my-cv-pdf.pdf"Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                          <input type=="text" name="Name" placeholder="Your Name" required>
+                          <input type=="email" name="email" placeholder="Your email" required>
+                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                         <button type="submit" class="btn btn2">submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &#169; Jainam.Made with <i class="fa-solid fa-heart fa-bounce" style="color: #f10410;"></i> by Jainam Modi</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+        
+      }
+    </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzOxiylS_gDiJrWTxXiNaB6Hij84-F7n255yNEkw-IGU9nQmB8KbW9BN8RW8ezbUyVV/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function() {
+                msg.innerHTML=""
+                
+        },5000)
+        form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+      
+</body>
+</html>
